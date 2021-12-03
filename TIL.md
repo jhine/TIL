@@ -63,7 +63,7 @@ $git log  #commit 로그
 ```
 ## 원격 저장소 사용하기
 1. 원격 저장소(remote repo)등록하기 (처음)
- - $git remote add origin <URL>  
+ - $git remote add origin URL
 2. 원격 저장소에 PUSH 하기 (추가할때 )
 - git push origin master
 
