@@ -32,23 +32,13 @@ touch - 파일 생성하기
   사용법 - 'mv aaa.txt CLI' 처럼 입력하면 aaa.txt 파일이 CLI폴더 내로 이동한다
 
   - rm - 파일 삭제
+  - /cd 파일위치 : ~위치 변경
 
 
-
-# 프로젝트 초기화 진행 
 
 ### 초기화 시점에 1회 입력
 ```
-# pjt 폴더 생성
- $ mkdir new_project
-# 폴더로 이동
- $cd 파일위치 
-# 폴더를 리포로 초기화
-$ git init
-# README & .gitignore 파일 add(tracking)
-$ git add . 
-# commit
-$ git commit -m 'first commit'
+-  $git init
 ```
 ### 작업하며 계속 입력
 ```
@@ -58,28 +48,8 @@ $ git commit -m 'first commit'
 ```
 ### 모니터링 명령어
 ```
-$git status  #현재 상황
-$git log     #commit 로그
-
-```
-
-## 원격 저장소 사용하기
-1. 원격 저장소(remote repo)등록하기 (처음)
-```
- - $git remote add origin URL
-2. 원격 저장소에 PUSH 하기 (추가할때 )
-- git push origin master
-```
-### 1. 원격 저장소 확인하기
-```
-$git remote -v
-```
-
-### 2. 새로운 컴퓨터에서 기존 원격 저장소 복제하기
-
-```  
-1. $git clone <URL>  (원하는 위치->Git Bash Here 실행 후 입력) 
-2. $git pull origin master 
+$git status #현재 상황
+$git log  #commit 로그
 
 ```
 ## ** 절대 하지 말아야 할 것 **
@@ -91,6 +61,12 @@ $git remote -v
    2.(master) 떠 있는지
 
 ```
+## 원격 저장소 사용하기
+1. 원격 저장소(remote repo)등록하기 (처음)
+ - $git remote add origin <URL>  
+2. 원격 저장소에 PUSH 하기 (추가할때 )
+- git push origin master
+
 
 
 
