@@ -71,7 +71,7 @@ $git log  #commit 로그
 
 ``` sh 
 1. $git clone <URL>  
-2. $git pull origin master (push)
+2. $git pull origin master 
 ```
 
 
