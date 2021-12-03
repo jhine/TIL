@@ -32,6 +32,7 @@ touch - 파일 생성하기
   사용법 - 'mv aaa.txt CLI' 처럼 입력하면 aaa.txt 파일이 CLI폴더 내로 이동한다
 
   - rm - 파일 삭제
+  - /cd 파일위치 : ~위치 변경
 
 
 
@@ -42,6 +43,7 @@ touch - 파일 생성하기
 ### 작업하며 계속 입력
 ```
 - $git add <filename>
+- $git add . : 모든 파일 등록
 - $git commit -m 'MESSAGE'
 ```
 ### 모니터링 명령어
