@@ -67,9 +67,12 @@ $git log  #commit 로그
 2. 원격 저장소에 PUSH 하기 (추가할때 )
 - git push origin master
 
+### 새로운 컴퓨터에서 기존 원격 저장소 복제하기
 
-
-
+``` sh 
+1. $git clone <URL>  
+2. $git pull origin master (push)
+```
 
 
 
