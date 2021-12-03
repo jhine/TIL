@@ -57,9 +57,13 @@ $git log  #commit 로그
 3. 3.$git init 입력 전 확인할 점
    1.~인지
    2.(master) 떠 있는지
+
 ```
-
-
+## 원격 저장소 사용하기
+1. 원격 저장소(remote repo)등록하기
+- $git remote add origin <URL>
+2 원격 저장소에 PUSH 하기
+- git push origin master
 
 # MD 사용법
 
